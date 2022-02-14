@@ -1,6 +1,4 @@
 # Power-Automate
-[![NY logo](/Assets/Readme-banner.png "NY logo")](/Assets/Readme-banner.png "NY logo")
-
 This repo contains my Flow patterns. 
 
 Check out my other content:
