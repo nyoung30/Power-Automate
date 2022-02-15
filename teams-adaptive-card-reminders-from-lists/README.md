@@ -22,4 +22,27 @@ This Flow requires the following Microsoft List columns and settings:
  1. Download the solution file [TeamsAdaptiveCardRemindersFromLists.zip](/teams-adaptive-card-reminders-from-lists/solution/TeamsAdaptiveCardRemindersFromLists.zip)
 
  2. Import the solution using Power Automate. Click **My flows** and then click **Import** 
+
  	[![Flow import](/teams-adaptive-card-reminders-from-lists/assets/flow-import.png "Flow import")](/teams-adaptive-card-reminders-from-lists/assets/flow-import.png "Flow import")
+
+3. Upload the solution by clicking **Upload** and select downloaded file from step 1
+
+4. Configure the Flow connections by clicking on **Configuration** for both the *SharePoint Connection* and the *Microsoft Teams Connection*
+
+ 	[![Import configuration before image](/teams-adaptive-card-reminders-from-lists/assets/import-configuration-before "Import configuration before image")](/teams-adaptive-card-reminders-from-lists/assets/import-configuration-before "Import configuration before image")
+
+5. Add a new *SharePoint Connection* by clicking **Create new**
+
+	5a. Click **Create a connection**, click **SharePoint** and then click **Create**
+
+	5b. Select your account in the *Pick your account screen*
+
+	5c. Return to the *Import package* screen, select your newly created *SharePoint Connection* and click **Save**
+
+6. Add a new *SharePoint Connection* by clicking **Create new**
+
+	6a. Click **Create a connection**, click **SharePoint** and then click **Create**
+
+	6b. Select your account in the *Pick your account screen*
+
+	6c. Return to the *Import package* screen, select your newly created *SharePoint Connection* and click **Save**
