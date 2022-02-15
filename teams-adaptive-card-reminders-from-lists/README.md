@@ -60,3 +60,24 @@ This Flow requires the following Microsoft List columns and settings:
 8. Click **Open flows** to further configure the flow
 
 	[![Open flow](/teams-adaptive-card-reminders-from-lists/assets/open-flow.png "Open flow")](/teams-adaptive-card-reminders-from-lists/assets/open-flow.png "Open flow")
+
+9. Expand *Initialize variable - varReminderDays*; this variable controls the number of days to notify in advance of the due date and can be changed as desired
+
+	[![varReminderDays](/teams-adaptive-card-reminders-from-lists/assets/varReminderDays.png "varReminderDays")](/teams-adaptive-card-reminders-from-lists/assets/varReminderDays.png "varReminderDays")
+
+10. Expand *Get items - Target list*, change the *Site address* and *List name* to your desired site and list
+
+	[![SharePoint Get items action](/teams-adaptive-card-reminders-from-lists/assets/get-items.png "SharePoint Get items action")](/teams-adaptive-card-reminders-from-lists/assets/get-items.png "SharePoint Get items action")
+
+11. Click **Save** to save your changes
+
+	[![Save and test](/teams-adaptive-card-reminders-from-lists/assets/save-test.png "Save and test")](/teams-adaptive-card-reminders-from-lists/assets/save-test.png "Save and test")
+
+12. Click **Go back to previous page**
+
+13. Click **Turn on** to enable your Flow
+
+14. Click **Run** and then clicl **Run flow**to test your Flow; any list item with a due date on todays date plus the *varReminderDays* interval will trigger a Microsoft Teams adaptive card reminder message
+
+	[![Teams reminder message](/teams-adaptive-card-reminders-from-lists/assets/teams-reminder.png "Teams reminder message")](/teams-adaptive-card-reminders-from-lists/assets/teams-reminder.png "Teams reminder message")
+
