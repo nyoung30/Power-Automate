@@ -90,5 +90,8 @@ This Flow requires the following Microsoft List columns and settings:
 	[![Run Flow](/teams-adaptive-card-reminders-from-lists/assets/run-flow.png "Run Flow")](/teams-adaptive-card-reminders-from-lists/assets/run-flow.png "Run Flow")
 
 
+Our reminder looks like the image below. Clicking on the **More Info** button will take you to the list item. 
 
-	[![Teams reminder message](/teams-adaptive-card-reminders-from-lists/assets/teams-reminder.png "Teams reminder message")](/teams-adaptive-card-reminders-from-lists/assets/teams-reminder.png "Teams reminder message")
+[![Teams reminder message](/teams-adaptive-card-reminders-from-lists/assets/teams-reminder.png "Teams reminder message")](/teams-adaptive-card-reminders-from-lists/assets/teams-reminder.png "Teams reminder message")
+
+The adaptive card was created and can be customized using the https://adaptivecards.io/designer/ site.
