@@ -31,7 +31,9 @@ This Flow requires the following Microsoft List columns and settings:
 
  	[![Import configuration before image](/teams-adaptive-card-reminders-from-lists/assets/import-configuration-before.png "Import configuration before image")](/teams-adaptive-card-reminders-from-lists/assets/sharepoint-connection.png "Import configuration before image")
 
-5. Add a new *SharePoint Connection* by clicking **Create new**
+5. For the **SharePoint Connection** either select and existing connection and click **Save** or add a new *SharePoint Connection* by clicking **Create new**
+
+	[![Existing or new connection](/teams-adaptive-card-reminders-from-lists/assets/existing-new-connection.png "Existing or new connection")](/teams-adaptive-card-reminders-from-lists/assets/existing-new-connection.png "Existing or new connection")
 
 	5a. Click **Create a connection**, click **SharePoint** and then click **Create**
 
@@ -43,7 +45,9 @@ This Flow requires the following Microsoft List columns and settings:
 
 	[![New SharePoint connection](/teams-adaptive-card-reminders-from-lists/assets/save-sharepoint-connection.png "New SharePoint connection")](/teams-adaptive-card-reminders-from-lists/assets/save-sharepoint-connection.png "New SharePoint connection")
 
-6. Add a new *Teams Connection* by clicking **Create new**
+5. For the **Microsoft Teams Connection** either select and existing connection and click **Save** or add a new *Microsoft Teams Connection* by clicking **Create new**
+
+	[![Existing or new connection](/teams-adaptive-card-reminders-from-lists/assets/existing-new-connection.png "Existing or new connection")](/teams-adaptive-card-reminders-from-lists/assets/existing-new-connection.png "Existing or new connection")
 
 	6a. Click **New connection**, select **Microsoft Teams** and then click **Create**
 
@@ -77,7 +81,7 @@ This Flow requires the following Microsoft List columns and settings:
 
 13. Click **Turn on** to enable your Flow
 
-14. Click **Run** and then clicl **Run flow**to test your Flow; any list item with a due date on todays date plus the *varReminderDays* interval will trigger a Microsoft Teams adaptive card reminder message
+14. Click **Run** and then click **Run flow**to test your Flow; any list item with a due date on todays date plus the *varReminderDays* interval will trigger a Microsoft Teams adaptive card reminder message
 
 	[![Teams reminder message](/teams-adaptive-card-reminders-from-lists/assets/teams-reminder.png "Teams reminder message")](/teams-adaptive-card-reminders-from-lists/assets/teams-reminder.png "Teams reminder message")
 
