@@ -2,7 +2,7 @@
 
 ## Summary
 
-This Flow will sends Microsoft Teams adaptive card reminders from Microsoft Lists in advance of a due date.
+This sample will send a *Microsoft Teams* adaptive card reminder from *Microsoft Lists* to the item owner in advance of the due date using *Power Automate*.
 
 [![Flow overview](/teams-adaptive-card-reminders-from-lists/assets/flow-overview.png "Flow overview")](/teams-adaptive-card-reminders-from-lists/assets/flow-overview.png "Flow overview")
 
@@ -19,5 +19,7 @@ This Flow requires the following Microsoft List columns and settings:
 
 ## Import Solution
 
- 1. Download the solution from `solution` folder: TeamsAdaptiveCardRemindersFromLists.zip
- 2. Import the solution from [Power Automate](https://flow.microsoft.com/), click **My flows** and then click **Import**
+ 1. Download the solution file [TeamsAdaptiveCardRemindersFromLists.zip](/teams-adaptive-card-reminders-from-lists/solution/TeamsAdaptiveCardRemindersFromLists.zip)
+
+ 2. Import the solution using Power Automate. Click **My flows** and then click **Import** 
+ 	[![Flow import](/teams-adaptive-card-reminders-from-lists/assets/flow-import.png "Flow import")](/teams-adaptive-card-reminders-from-lists/assets/flow-import.png "Flow import")
