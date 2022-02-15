@@ -29,20 +29,34 @@ This Flow requires the following Microsoft List columns and settings:
 
 4. Configure the Flow connections by clicking on **Configuration** for both the *SharePoint Connection* and the *Microsoft Teams Connection*
 
- 	[![Import configuration before image](/teams-adaptive-card-reminders-from-lists/assets/import-configuration-before "Import configuration before image")](/teams-adaptive-card-reminders-from-lists/assets/import-configuration-before "Import configuration before image")
+ 	[![Import configuration before image](/teams-adaptive-card-reminders-from-lists/assets/import-configuration-before.png "Import configuration before image")](/teams-adaptive-card-reminders-from-lists/assets/sharepoint-connection.png "Import configuration before image")
 
 5. Add a new *SharePoint Connection* by clicking **Create new**
 
 	5a. Click **Create a connection**, click **SharePoint** and then click **Create**
 
+	[![New SharePoint connection](/teams-adaptive-card-reminders-from-lists/assets/sharepoint-connection.png "New SharePoint connection")](/teams-adaptive-card-reminders-from-lists/assets/import-configuration-before.png "New SharePoint connection")
+
 	5b. Select your account in the *Pick your account screen*
 
 	5c. Return to the *Import package* screen, select your newly created *SharePoint Connection* and click **Save**
 
-6. Add a new *SharePoint Connection* by clicking **Create new**
+	[![New SharePoint connection](/teams-adaptive-card-reminders-from-lists/assets/save-sharepoint-connection.png "New SharePoint connection")](/teams-adaptive-card-reminders-from-lists/assets/save-sharepoint-connection.png "New SharePoint connection")
 
-	6a. Click **Create a connection**, click **SharePoint** and then click **Create**
+6. Add a new *Teams Connection* by clicking **Create new**
+
+	6a. Click **New connection**, select **Microsoft Teams** and then click **Create**
 
 	6b. Select your account in the *Pick your account screen*
 
-	6c. Return to the *Import package* screen, select your newly created *SharePoint Connection* and click **Save**
+	6c. Return to the *Import package* screen, select your newly created *Microsoft Teams Connection* and click **Save**
+
+	[![New Teams connection](/teams-adaptive-card-reminders-from-lists/assets/save-teams-connection.png "New Teams connection")](/teams-adaptive-card-reminders-from-lists/assets/save-teams-connection.png "New Teams connection")
+
+7. After our Flow connections have been created click **Import** to import the solution file.
+
+	[![Import configuration after image](/teams-adaptive-card-reminders-from-lists/assets/import-configuration-after.png "Import configuration after image")](/teams-adaptive-card-reminders-from-lists/assets/import-configuration-after.png "Import configuration after image")
+
+8. Click **Open flows** to further configure the flow
+
+	[![Open flow](/teams-adaptive-card-reminders-from-lists/assets/open-flow.png "Open flow")](/teams-adaptive-card-reminders-from-lists/assets/open-flow.png "Open flow")
