@@ -61,17 +61,19 @@ This Flow requires the following list columns and settings:
 
 3. Upload the solution by clicking **Upload** and select downloaded file from step 1
 
+	![Upload package](/create-folder-with-link-back-to-list/assets/upload-package.png "Upload package")
+
 4. Configure the Flow connections by clicking on **Configuration** for the *SharePoint Connection*
 
- 	![Import configuration before image](/samples/create-folder-with-link-back-to-list/assets/import-configuration-before.png "Import configuration before image")
+ 	![Import configuration before image](/create-folder-with-link-back-to-list/assets/import-configuration-before.png "Import configuration before image")
 
 5. For the **SharePoint Connection** either select an existing connection and click **Save** or add a new *SharePoint Connection* by clicking **Create new** (see Steps 5a, 5b)
 
-	![Existing or new connection](/samples/create-folder-with-link-back-to-list/assets/existing-new-connection.png "Existing or new connection")
+	![Existing or new connection](/create-folder-with-link-back-to-list/assets/existing-new-connection.png "Existing or new connection")
 
 	5a. Click **Create a connection**, click **SharePoint** and then click **Create**
 
-	![New SharePoint connection](/samples/create-folder-with-link-back-to-list/assets/sharepoint-connection.png "New SharePoint connection")
+	![New SharePoint connection](/create-folder-with-link-back-to-list/assets/sharepoint-connection.png "New SharePoint connection")
 
 	5b. Select your account in the *Pick your account screen*
 
