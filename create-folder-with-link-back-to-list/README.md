@@ -2,15 +2,15 @@
 
 ## Summary
 
-This sample creates a folder in a *SharePoint* document library and then stores the link to the newly created folder inside of *Microsoft Lists* using *Power Automate*. The folder name is based on a combination of list columns and provides a better user experience compared to the default URL.
+This sample creates a folder in a *SharePoint* document library and then stores the link to the newly created folder inside of *Microsoft Lists* using *Power Automate*. The folder name is based on a combination of list columns and provides a better link experience compared to the default URL.
 
 ![Flow overview](/create-folder-with-link-back-to-list/assets/flow-overview.png "Flow overview")
 
 
 ## Applies to
 
-* [Microsoft Power Automate](https://docs.microsoft.com/power-automate/)
-
+* [Power Automate](https://docs.microsoft.com/power-automate/)
+* [SharePoint](https://learn.microsoft.com/en-us/sharepoint/)
 
 ## Compatibility
 
@@ -30,7 +30,7 @@ create-folder-with-link-back-to-list | [Norm Young](https://github.com/nyoung30)
 
 Version|Date|Comments
 -------|----|--------
-1.0|October 07, 2022|Initial release
+1.0|October 10, 2022|Initial release
 
 
 ## Features
@@ -59,7 +59,7 @@ This Flow requires the following list columns and settings:
 
  	![Flow import](/create-folder-with-link-back-to-list/assets/flow-import.png "Flow import")
 
-3. Upload the solution by clicking **Upload** and select downloaded file from step 1
+3. Upload the solution by clicking **Upload** and select the downloaded file from Step 1
 
 	![Upload package](/create-folder-with-link-back-to-list/assets/upload-package.png "Upload package")
 
