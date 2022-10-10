@@ -85,29 +85,29 @@ This Flow requires the following list columns and settings:
 
 	![Import configuration after](/create-folder-with-link-back-to-list/assets/import-configuration-after.png "Import configuration after")
 
-	**Note:** If you receive a "GetTable" error during the import, click the **Save as a new flow** option and manually update the connections references. This error is caused by importing and exporting *Flows* between tenants.
+	**Note:** If you receive a "GetTable" error during the import, click **Save as a new flow** and manually update the connections references. This error is caused by the importing and exporting *Flows* between tenants.
 
 	![Flow import error](/create-folder-with-link-back-to-list/assets/flow-import-error.png "Flow import error")
 	
-	Select your target connection to fix the "Invalid connection" error. Repeat for all SharePoint actions.
+	Select your target connection to fix the "Invalid connection" error. **Repeat** for all SharePoint actions.
 	![Fix connections](/create-folder-with-link-back-to-list/assets/flow-fix-connections.png "Fix connections")
 
 7. Click **Open flow** to further configure the flow
 
 	![Open flow](/create-folder-with-link-back-to-list/assets/open-flow.png "Open flow")
 	
-8. Expand the *When an item is created*, change the *Site address* and *List name* to your desired site and list 
+8. Expand the **When an item is created**, change the *Site address* and *List name* to your desired site and list 
 
 	![Configure When an item is created](/create-folder-with-link-back-to-list/assets/when-an-item-is-created.png "Configure When an item is created")
 
-9.  Expand *Initialize variable - varParameters*, change the *Site address* and *List name* to your desired site and list
+9.  Expand **Initialize variable - varParameters**, update the object references using guidance listed in the table below
 
 	![Configure Initialize variable](/create-folder-with-link-back-to-list/assets/initialize-variable.png "Configure Initialize variable")
 
 	Name | Value
 	---- | ------
 	*varSiteURL* | Replace with your site URL
-	*varListInternalName* | Replace with your internal list name; **Tip:** Use this API call in your browser to obtain the internal list name: *https://<YourTenantName>.sharepoint.com/sites/<YourSiteName>/_api/Web/Lists/GetByTitle('<YourListNameWithSpaces')?$select=ListItemEntityTypeFullName*
+	*varListInternalName* | Replace with your internal list name; **Tip:** Use this API call in your web browser to obtain the internal list name: *https://YourTenantName.sharepoint.com/sites/YourSiteName/_api/Web/Lists/GetByTitle('YourListNameWithSpaces')?$select=ListItemEntityTypeFullName*
 	*varListDisplayName* | Replace with your list display name
 	*varColumnInternalName* | Replace with the internal column name; **Tip:** Use the list column settings to see the internal name at the end of the URL string
 	*varDocumentDisplayLibraryName* | Replace with the Document Library display name.
@@ -116,7 +116,7 @@ This Flow requires the following list columns and settings:
 
 10. Click **Save** to save your changes
 
-	![Save and test](/create-folder-with-link-back-to-list/assets/save-test.png "Save and test")
+	![Save](/create-folder-with-link-back-to-list/assets/save.png "Save")
 
 12. Click **Go back to previous page**
 
