@@ -55,7 +55,7 @@ This Flow requires the following list columns and settings:
 
 1. Download the solution file [CreateFolderWithLinkBackToList.zip](/create-folder-with-link-back-to-list/solution/CreateFolderWithLinkBackToList.zip)
 
-2. Import the solution using Power Automate. Click **My flows**, click **Import** and then click **Import Package (Legacy)**
+2. Import the solution using *Power Automate*. Click **My flows**, click **Import** and then click **Import Package (Legacy)**
 
  	![Flow import](/create-folder-with-link-back-to-list/assets/flow-import.png "Flow import")
 
@@ -63,11 +63,11 @@ This Flow requires the following list columns and settings:
 
 	![Upload package](/create-folder-with-link-back-to-list/assets/upload-package.png "Upload package")
 
-4. Configure the Flow connections by clicking on **Configuration** for the *SharePoint Connection*
+4. Configure the *Flow* connections by clicking on **Configuration** for the *SharePoint Connection*
 
  	![Import configuration before image](/create-folder-with-link-back-to-list/assets/import-configuration-before.png "Import configuration before image")
 
-5. For the **SharePoint Connection** either select an existing connection and click **Save** or add a new *SharePoint Connection* by clicking **Create new** (see Steps 5a, 5b)
+5. Select an existing connection and click **Save** or add a new *SharePoint Connection* by clicking **Create new** (see Steps 5a, 5b)
 
 	![Existing or new connection](/create-folder-with-link-back-to-list/assets/existing-new-connection.png "Existing or new connection")
 
@@ -77,13 +77,17 @@ This Flow requires the following list columns and settings:
 
 	5b. Select your account in the *Pick your account screen*
 
-	5c. Return to the *Import package* screen, select your newly created *SharePoint Connection* and click **Save**
+	5c. Return to the *Import setup* screen, select your newly created *SharePoint Connection* and click **Save**
 
-	![New SharePoint connection](/samples/create-folder-with-link-back-to-list/assets/save-sharepoint-connection.png "New SharePoint connection")
+	![New SharePoint connection](/create-folder-with-link-back-to-list/assets/save-sharepoint-connection.png "New SharePoint connection")
 
 6. After our Flow connections have been created click **Import** to import the solution file.
 
-	![Import configuration after image](/samples/create-folder-with-link-back-to-list/assets/import-configuration-after.png "Import configuration after image")
+	![Import configuration after](/create-folder-with-link-back-to-list/assets/import-configuration-after.png "Import configuration after")
+
+	**Note:** If you receive a "GetTable" error during the import, click **Save as a new flow** option and manually update the connections references. This error is caused by importing and exporting *Flows* between tenants.
+
+	![Flow import error](/create-folder-with-link-back-to-list/assets/flow-import-error.png "Flow import error")
 
 7. Click **Open flows** to further configure the flow
 
