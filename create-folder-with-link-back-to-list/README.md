@@ -2,7 +2,7 @@
 
 ## Summary
 
-This sample creates a folder in a *SharePoint* document library and then stores the link to the newly created folder inside of *Microsoft Lists* using *Power Automate*. The folder name is based on a combination of list columns and provides a better link experience compared to the default URL.
+This sample creates a folder in a *SharePoint* document library and then stores the link to the newly created folder inside of *Microsoft Lists* using *Power Automate*. The folder name is based on a combination of list columns and provides a better link experience compared to the default URL. 
 
 ![Flow overview](/create-folder-with-link-back-to-list/assets/flow-overview.png "Flow overview")
 
