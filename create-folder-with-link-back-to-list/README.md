@@ -118,23 +118,24 @@ This Flow requires the following list columns and settings:
 
 	![Save](/create-folder-with-link-back-to-list/assets/save.png "Save")
 
-12. Click **Go back to previous page**
+11. Click **Go back to previous page**
 
 	![Previous page](/create-folder-with-link-back-to-list/assets/previous-page.png "Previous page")
 
-13. Click **Turn on** to enable your Flow
+12. Click **Turn on** to enable your Flow
 
 	![Turn on Flow](/create-folder-with-link-back-to-list/assets/turn-on.png "Turn on Flow")
 
-14. Click **Run** and then click **Run flow** to test your Flow; any list item with a due date on todays date plus the *varReminderDays* interval will trigger a *Microsoft Teams* adaptive card reminder message
+13. Test your *Flow* by adding a new item to your list. If successful the Flow will:
+    1.  Create a folder in our target *SharePoint* Document Library with a name that concatenates the *ID* and *Title* columns
+    2.  Update list item *FolderLocation* column to match the folder name
+![Your flow ran successfully](/create-folder-with-link-back-to-list/assets/flow-run.png "Your flow ran successfully")
 
-	![Run Flow](/samples/teams-adaptive-card-reminders-from-lists/assets/run-flow.png "Run Flow")
+Our list item looks like the image below. Clicking on the *FolderLocation* link will take you to the folder location. 
 
+![List item](/create-folder-with-link-back-to-list/assets/list-item.png "List item")
 
-Our adaptive card reminder looks like the image below. Clicking on the **More Info** button will take you to the list item. 
-
-![Teams reminder message](/samples/teams-adaptive-card-reminders-from-lists/assets/teams-reminder.png "Teams reminder message")
-
+![Folder](/create-folder-with-link-back-to-list/assets/folder.png "Folder")
 
 
 ## Disclaimer
