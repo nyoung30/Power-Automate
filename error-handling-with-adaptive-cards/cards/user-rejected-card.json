@@ -1,0 +1,84 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://cdn.techcommunity.microsoft.com/assets/PowerPlatform/xuPlE1EJ_400x400.png",
+                            "size": "Medium"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "@{outputs('Get_item_-_Sales_Request')?['body/Title']}",
+                            "wrap": true,
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "color": "Attention"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Status: @{outputs('Get_item_-_Sales_Request')?['body/Status/Value']}",
+                            "wrap": true,
+                            "spacing": "ExtraSmall",
+                            "weight": "Bolder"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "showBorder": true,
+            "roundedCorners": true,
+            "style": "accent",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Opportunity Amount and Quote Amount exceed the allowed variance of +/- 15% and cannot be moved to Sales for processing. Update the Opportunity Amount and/or Quote Total Amounts and resubmit Flow.",
+                    "wrap": true
+                },
+                {
+                    "type": "FactSet",
+                    "facts": [
+                        {
+                            "title": "Opportunity Amount",
+                            "value": "@{formatNumber(outputs('Get_item_-_Sales_Request')?['body/OpportunityAmount'], 'C')}"
+                        },
+                        {
+                            "title": "Quote Amount",
+                            "value": "@{formatNumber(outputs('Get_item_-_Sales_Request')?['body/QuoteAmount'], 'C')}"
+                        },
+                        {
+                            "title": "Percent Difference",
+                            "value": "@{concat(formatNumber(mul(variables('varVariance'), 100), 'N2'), '%')}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.OpenUrl",
+            "title": "Open Opportunity",
+            "url": "@{outputs('Get_item_-_Sales_Request')?['body/{Link}']}"
+        }
+    ],
+    "speak": "Opportunity Amount and Quote Amount exceed the allowed variance of +/- 15% and cannot be moved to Sales for processing. Update the Opportunity Amount and/or Quote Total Amounts and resubmit Flow."
+}

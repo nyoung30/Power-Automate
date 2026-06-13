@@ -1,0 +1,67 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://cdn.techcommunity.microsoft.com/assets/PowerPlatform/xuPlE1EJ_400x400.png",
+                            "size": "Medium"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "@{items('For_each_-_Notify_Admins')?['Title']}",
+                            "wrap": true,
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "color": "Attention"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Flow error please investigate",
+                            "wrap": true,
+                            "spacing": "ExtraSmall",
+                            "weight": "Bolder"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "showBorder": true,
+            "roundedCorners": true,
+            "style": "accent",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "@{variables('varDebug')}",
+                    "wrap": true
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.OpenUrl",
+            "title": "Open Flow",
+            "url": "@{outputs('Compose_-_Flow_Run_URL')}"
+        }
+    ],
+    "speak": "Flow error"
+}
